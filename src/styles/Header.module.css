@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 1rem;
+  }
+  
+  
+  .logo img {
+    width: 20vw;
+    height: 15vh;
+    margin-right: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+  
+  .nav li {
+    margin-right: 1rem;
+    
+  }
+  
+  .nav a {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav a:hover {
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem 0.5rem;
+    }
+  
+    .logo {
+      margin-bottom: 1rem;
+    }
+    .logo .img{
+        width: 80%;
+    }
+  
+    .nav li {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+      font-size: large;
+      
+    }
+  }
+
+  @font-face {
+    font-family: amertha;
+    src: url(../../public/fonts/amertha-personal-use-only.ttf);
+  }
+  .amertha{
+    font-family: amertha;
+    
+  }
+  

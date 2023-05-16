@@ -1,0 +1,36 @@
+
+
+  @font-face {
+    font-family: oakle;
+    src: url(../../public/fonts/Oakle-Font/Oakle.ttf);
+
+  }
+  .oakle{
+    font-family: oakle;
+    font-size: 4em;
+    
+  }
+  @media screen and (min-width: 600px) {
+    .oakle {
+      font-size: 10rem;
+      
+    }
+   
+  }
+
+  @font-face {
+    font-family: westiva;
+    src: url(../../public/fonts/Westiva/Westiva\ Bold.ttf);
+  }
+  .westiva{
+    font-family:westiva;
+    font-size: 10rem;
+    color: #103240aa;
+  }
+  @media screen and (max-width: 600px) {
+    .westiva {
+      font-size: 5rem;
+      
+    }
+   
+  }

@@ -1,0 +1,58 @@
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    
+    margin: 0 auto;
+    background-color:teal;
+    color: white;
+     
+  }
+  
+  .card {
+    background-color: rgb(49, 89, 89);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px rgba(77, 94, 44, 0.938);
+    padding: 2rem;
+    flex: 1 1 300px;
+    width: 400px;
+    height: 18rem;
+    text-align: center;
+    
+  }
+  
+  @media (max-width: 600px) {
+    .cardGrid {
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      overflow: hidden;
+      margin: 0;
+       
+    }
+    
+    .card {
+      flex: 1 1 100%;
+       
+    }
+  }
+  .img{
+    width:50%;
+    height: 10rem;
+   text-decoration: none;
+  }
+  .font{
+    text-decoration:none;
+    color: white;
+  }
+  @font-face {
+    font-family: diranista;
+    src: url(../../public/fonts/diranista/Diranista-Regular.otf);
+  }
+  .diranista{
+    font-family: diranista;
+    color: rgb(23, 53, 6);
+  }
+  
